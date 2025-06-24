@@ -1,6 +1,6 @@
 # ✨ Sign Language Detection System
 
-📋 Project Description
+📋 **Project Description**
 
 This project is a Sign Language Detection System that can:
 
@@ -16,7 +16,7 @@ Starting and stopping webcam-based real-time detection.
 
 The system uses MediaPipe for hand detection and a fine-tuned MobileNetV2 model for gesture classification.
 
-🔨 Project Features
+🔨 **Project Features**
 
 
 Real-time hand detection using MediaPipe.
@@ -34,7 +34,7 @@ GUI with:
 Automatic time validation to restrict system operation between specified hours.
 
 
-🖼️ Dataset Preparation
+🖼️** Dataset Preparation**
 
 Data Collection:
 
@@ -52,7 +52,7 @@ Data Splitting:
 
 Dataset split into train and test folders using an 80:20 ratio.
 
-🧠 Model Training
+🧠 **Model Training**
 
 Used MobileNetV2 pretrained on ImageNet.
 
@@ -62,7 +62,7 @@ Applied ReduceLROnPlateau for learning rate scheduling.
 
 Focused fine-tuning on classes with confusion like yes, no, and stop.
 
-🎯 Model Evaluation
+🎯 **Model Evaluation**
 
 Achieved ~98% training and validation accuracy.
 
@@ -72,7 +72,7 @@ Collecting additional real-time images for these classes.
 
 Fine-tuning the model on this focused dataset.
 
-💻 GUI Features
+💻 **GUI Features**
 
 Built using Tkinter.
 
