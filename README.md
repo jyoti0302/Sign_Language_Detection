@@ -8,11 +8,11 @@ This project is a Sign Language Detection System that can:
 
 -Operate only between a restricted timeframe.
 
--Provide a simple GUI built with Tkinter that allows:\
+-Provide a simple GUI built with Tkinter that allows:
   
-  -Uploading an image for prediction.
+   -Uploading an image for prediction.
 
-  -Starting and stopping webcam-based real-time detection.
+   -Starting and stopping webcam-based real-time detection.
 
 The system uses MediaPipe for hand detection and a fine-tuned MobileNetV2 model for gesture classification.
 
@@ -27,9 +27,9 @@ The system uses MediaPipe for hand detection and a fine-tuned MobileNetV2 model 
 
 -GUI with:
 
-  -Upload image button.
+   -Upload image button.
   
-  -Start/stop webcam buttons.
+   -Start/stop webcam buttons.
 
 -Automatic time validation to restrict system operation between specified hours.
 
@@ -38,19 +38,19 @@ The system uses MediaPipe for hand detection and a fine-tuned MobileNetV2 model 
 
 Data Collection:
 
-  -Collected real-time images with full background using OpenCV.
+   -Collected real-time images with full background using OpenCV.
 
-  -Used MediaPipe to detect and crop hands from each image on the fly (without saving cropped versions).
+   -Used MediaPipe to detect and crop hands from each image on the fly (without saving cropped versions).
 
 
 Data Augmentation:
 
-  -Applied augmentations (flipping, rotation, brightness changes) to expand to 200 images per class.
+   -Applied augmentations (flipping, rotation, brightness changes) to expand to 200 images per class.
 
 
 Data Splitting:
 
-  -Dataset split into train and test folders using an 80:20 ratio.
+   -Dataset split into train and test folders using an 80:20 ratio.
 
 🧠 **Model Training**
 
@@ -78,10 +78,10 @@ Data Splitting:
 
 -Buttons:
 
-  -Upload Image: Select an image for hand detection and sign prediction.
+   -Upload Image: Select an image for hand detection and sign prediction.
 
-  -Start Webcam: Start real-time video prediction.
+   -Start Webcam: Start real-time video prediction.
 
-  -Stop Webcam: Stop video feed.
+   -Stop Webcam: Stop video feed.
 
 -Displays model predictions with confidence scores.
