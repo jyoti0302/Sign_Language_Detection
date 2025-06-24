@@ -34,7 +34,7 @@ GUI with:
 Automatic time validation to restrict system operation between specified hours.
 
 
-🖼️** Dataset Preparation**
+🖼️**Dataset Preparation**
 
 Data Collection:
 
