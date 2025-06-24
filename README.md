@@ -53,7 +53,7 @@ Data Splitting:
    -Dataset split into train and test folders using an 80:20 ratio.
 
 Final_Dataset:
-https://drive.google.com/drive/folders/1WBhyyl37oCq_flyXevDQQHYJX4WjEO0U?usp=sharing
+https://drive.google.com/drive/folders/1WBhyyl37oCq_flyXevDQQHYJX4WjEO0U?usp=drive_link
 
 🧠 **Model Training**
 
